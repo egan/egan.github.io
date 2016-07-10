@@ -1,0 +1,28 @@
+- slug: linguistics
+  name: Linguistics
+- slug: shell
+  name: Shell Tips and Scripts
+- slug: control
+  name: Control Systems
+- slug: dynamics
+  name: Dynamic Systems
+- slug: python
+  name: Python
+- slug: latex
+  name: LaTeX
+- slug: design
+  name: Mechanical Design
+- slug: opinion
+  name: Opinion
+- slug: recipe
+  name: Recipes
+- slug: arch
+  name: Arch Linux
+- slug: scientific
+  name: Scientific Computing
+- slug: publishing
+  name: Publishing
+- slug: electronics
+  name: Electronics
+- slug: misc
+  name: Miscellaneous
