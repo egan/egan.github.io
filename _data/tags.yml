@@ -26,3 +26,5 @@
   name: Electronics
 - slug: misc
   name: Miscellaneous
+- slug: web
+  name: Web Design
