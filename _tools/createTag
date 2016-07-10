@@ -28,7 +28,7 @@ fi
 
 cat >> "${tagDataFile}" <<-new-tag-entry
 	- slug: ${newTagSlugName}
-		name: ${newTagPrettyName}
+	  name: ${newTagPrettyName}
 new-tag-entry
 
 cat > "${tagListFile}" <<-new-tag-list-file
