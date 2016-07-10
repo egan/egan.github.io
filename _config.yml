@@ -7,9 +7,9 @@ gems:             [jekyll-gist, jekyll-paginate, jekyll-sitemap]
 permalink:        pretty
 
 # Setup
-title:            Needs a Good Title
-tagline:          'A Clever Tagline'
-description:      'Description'
+title:            skezu'e
+tagline:          'And other problems'
+description:      'Mechatronics Engineering, Scientific Computing, Arch Linux, Linguistics, and Food'
 url:              https://egan.github.io
 baseurl:          /
 
@@ -20,7 +20,5 @@ author:
 paginate:         5
 
 # Custom vars
-version:          2.1.0
-
 github:
   repo:           https://github.com/egan/egan.github.io
