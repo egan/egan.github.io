@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-  {% include head.html %}
+	{% include head.html %}
+	<script type="text/javascript"
+		src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
 
-  <body>
+	<body>
 
-    {% include sidebar.html %}
+		{% include sidebar.html %}
 
-    <div class="content container">
-      {{ content }}
-    </div>
+		<div class="content container">
+			{{ content }}
+		</div>
 
-  </body>
-  {% include ganalytics.html %}
+	</body>
+	{% include ganalytics.html %}
 </html>
