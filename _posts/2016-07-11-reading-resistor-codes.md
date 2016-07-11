@@ -27,7 +27,7 @@ Below, the original crayon drawing I made on the back of some scratch paper:
 
 <div align="center">
 	<a rel="resistor-codes" href="images/resistor-codes.png">
-		<img src="images/resistor-codes.png" alt="Colored Number Shapes" height="400">
+		<img src="{{ site.url }}/images/resistor-codes.png" alt="Colored Number Shapes" height="400">
 	</a>
 </div>
 
