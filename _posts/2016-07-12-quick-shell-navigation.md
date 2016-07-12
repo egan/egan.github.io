@@ -30,7 +30,7 @@ l                 # Lists all available bookmarks
 
 Conveniently, these functions are tied into bash completion so pressing tab will complete with known bookmarks.
 
-Bookmarks are only good for directories you need to access a lot, and need to be created first.
+Nonetheless, bookmarks are only good for directories you need to access a lot, and need to be created first.
 One could try to map their entire file system into a flat dictionary of bookmarks but this would basically defeat their purpose.
 
 ## Up
@@ -38,7 +38,7 @@ One navigation operation I found particularly tedious was moving up the director
 
 	egan@teuthida:~/docs/old/15/q3/eme/185/code/weinbot/src/Drive/Sabertooth (master *)$ cd ../../../../../../..
 
-I would invariably make a typo or miscount the number of steps I needed.
+I would invariably make a typo or miscount the number of levels I needed.
 The correspondence between the command and the mental operation was not good either.
 You don't want to "go seven levels up in the tree", but rather "go to q3".
 So I implemented a shell script [upstr.sh](https://github.com/egan/scripts/blob/master/upstr.sh) that returns a `..` path from either a number or a substring of the current working directory path.
@@ -63,7 +63,7 @@ While I was coming up with the substring concept, I realized that the same princ
 ## Down
 In the prior example, it is not just tedious to back out of the that deep path, but also tedious to get there is the first place.
 It would be nice to jump straight there.
-However, a bookmark isn't appropriate because this is an archived directory that I am not actively working in.
+However, a bookmark isn't appropriate because this is an archived directory in which I am not actively working.
 
 Applying the substring jumping concept from upstr.sh, I developed [downstr.sh](https://github.com/egan/scripts/blob/master/downstr.sh) that searches the child directory tree for a substring and returns the first matching path.
 To use it, add a similar bash function as up to your bash environment:
@@ -92,7 +92,7 @@ One could do:
 	down weinbot/src
 
 To get to the correct place, but that requires excessive typing and sometimes you don't remember the exact directory structure.
-Fortunately, I designed downstr.sh to accept multiple substrings:
+To improve the experience, I designed downstr.sh to accept multiple substrings:
 
 	down 185 src
 
