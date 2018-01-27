@@ -11,7 +11,6 @@ title:            skezu'e
 tagline:          'And other problems'
 description:      'Mechatronics Engineering, Scientific Computing, Arch Linux, Linguistics, and Food'
 url:              https://egan.github.io
-baseurl:          /
 
 author:
   name:           'Egan McComb'
